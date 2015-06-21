@@ -5,7 +5,6 @@ using UnityEngine.Events;
 
 public class STower : MonoBehaviour {
     public Button Button;
-    public Button Button1;
     public GameObject TowerPanelObject;
     private static STower TowerPanel;
 
@@ -23,7 +22,6 @@ public class STower : MonoBehaviour {
     public void Choice(UnityAction noEvent)
     {
         {
-           
             TowerPanelObject.SetActive(true);
             Button.onClick.RemoveAllListeners();
             Button.onClick.AddListener(noEvent);
