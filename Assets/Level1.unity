@@ -888,7 +888,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46e607869a495fe44825db296e0643ba, type: 2}
-  m_RootGameObject: {fileID: 224234870}
   m_IsPrefabParent: 0
 --- !u!1 &203172433
 GameObject:
@@ -2267,7 +2266,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 
 --- !u!222 &658708939
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2796,6 +2795,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 854540359}
+  Button1: {fileID: 0}
   TowerPanelObject: {fileID: 224234870}
 --- !u!1 &1014065126
 GameObject:
@@ -3944,7 +3944,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 955097009592e0f4b891e856b5558c4d, type: 2}
-  m_RootGameObject: {fileID: 2051116107}
   m_IsPrefabParent: 0
 --- !u!1 &1736813772
 GameObject:
@@ -5100,7 +5099,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 
 --- !u!222 &2087942770
 CanvasRenderer:
   m_ObjectHideFlags: 0
