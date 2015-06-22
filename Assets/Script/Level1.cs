@@ -15,7 +15,7 @@ public class Level1 : MonoBehaviour {
     private STower TowerPanel;
     
 
-	// Use this for initialization
+    // Use this for initialization
 	void Start () {
         AudioListener.pause = false;
         CanMute = true;
@@ -47,10 +47,11 @@ public class Level1 : MonoBehaviour {
         Button2.GetComponent<Image>().sprite = sprite;
     }
 
-    public void Click()
+    public void Click(Button button)
     {
-        TowerPanel.Choice(NoFunction);
-    }
+        TowerPanel.buttonSetup(button); 
+        TowerPanel.Choice(NoFunction); 
+   }
 
 
     public void ClickButton(string buttonID)

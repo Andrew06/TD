@@ -624,7 +624,7 @@ GameObject:
   - 114: {fileID: 135768161}
   - 114: {fileID: 135768164}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Btn4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -689,11 +689,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 135768164}
         m_MethodName: Click
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgument: {fileID: 135768161}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI,
+            Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -888,7 +888,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 46e607869a495fe44825db296e0643ba, type: 2}
-  m_RootGameObject: {fileID: 224234870}
   m_IsPrefabParent: 0
 --- !u!1 &203172433
 GameObject:
@@ -1452,7 +1451,7 @@ GameObject:
   - 114: {fileID: 482201571}
   - 114: {fileID: 482201574}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Btn5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1517,11 +1516,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 482201574}
         m_MethodName: Click
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgument: {fileID: 482201571}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI,
+            Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1586,7 +1585,7 @@ GameObject:
   - 114: {fileID: 484988035}
   - 114: {fileID: 484988038}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Btn7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1651,11 +1650,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 484988038}
         m_MethodName: Click
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgument: {fileID: 484988035}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI,
+            Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2796,7 +2795,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Button: {fileID: 854540359}
+  Btn1: {fileID: 2057809020}
+  Btn2: {fileID: 2051116108}
+  Btn3: {fileID: 2043544847}
+  Btn4: {fileID: 135768160}
+  Btn5: {fileID: 482201570}
+  Btn6: {fileID: 1957712752}
+  Btn7: {fileID: 484988034}
   TowerPanelObject: {fileID: 224234870}
+  btn: 
 --- !u!1 &1014065126
 GameObject:
   m_ObjectHideFlags: 0
@@ -3944,7 +3951,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 955097009592e0f4b891e856b5558c4d, type: 2}
-  m_RootGameObject: {fileID: 2051116107}
   m_IsPrefabParent: 0
 --- !u!1 &1736813772
 GameObject:
@@ -4345,7 +4351,7 @@ GameObject:
   - 114: {fileID: 1957712753}
   - 114: {fileID: 1957712756}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Btn6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4410,11 +4416,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1957712756}
         m_MethodName: Click
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgument: {fileID: 1957712753}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI,
+            Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4541,7 +4547,7 @@ GameObject:
   - 114: {fileID: 2043544848}
   - 114: {fileID: 2043544851}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Btn3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4606,11 +4612,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2043544851}
         m_MethodName: Click
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgument: {fileID: 2043544848}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI,
+            Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4675,7 +4681,7 @@ GameObject:
   - 114: {fileID: 2051116109}
   - 114: {fileID: 2051116112}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Btn2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4742,11 +4748,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2051116112}
         m_MethodName: Click
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgument: {fileID: 2051116109}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI,
+            Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4814,7 +4820,7 @@ GameObject:
   - 114: {fileID: 2057809021}
   - 114: {fileID: 2057809024}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Btn1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4879,11 +4885,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2057809024}
         m_MethodName: Click
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine, Version=0.0.0.0,
-            Culture=neutral, PublicKeyToken=null
+          m_ObjectArgument: {fileID: 2057809021}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI,
+            Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
