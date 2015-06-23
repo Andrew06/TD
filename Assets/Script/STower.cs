@@ -28,61 +28,50 @@ public class STower : MonoBehaviour {
         return TowerPanel;
     }
 
-    public void buttonSetup(Button button)
+    public void buttonSetup(string button)
     {
-        button.onClick.RemoveAllListeners();
-        button.onClick.AddListener(() => handleButton(button));
- 
+        switch (button)
+        {
+           case "Btn1":
+                TowerPanelObject.transform.SetParent(Btn1, true);
+                TowerPanelObject.transform.localPosition = Vector2.zero;
+                break;
+           case "Btn2":
+                TowerPanelObject.transform.SetParent(Btn2, true);
+                TowerPanelObject.transform.localPosition = Vector2.zero;
+                break;
+           case "Btn3":
+                TowerPanelObject.transform.SetParent(Btn3, true);
+                TowerPanelObject.transform.localPosition = Vector2.zero;
+                break;
+           case "Btn4":
+                TowerPanelObject.transform.SetParent(Btn4, true);
+                TowerPanelObject.transform.localPosition = Vector2.zero;
+                break;
+           case "Btn5":
+                TowerPanelObject.transform.SetParent(Btn5, true);
+                TowerPanelObject.transform.localPosition = Vector2.zero;
+                break;
+           case "Btn6":
+                TowerPanelObject.transform.SetParent(Btn6, true);
+                TowerPanelObject.transform.localPosition = Vector2.zero;
+                break;
+           case "Btn7":
+                TowerPanelObject.transform.SetParent(Btn7, true);
+                TowerPanelObject.transform.localPosition = Vector2.zero;
+                break;
+        }
+
     }
 
-    void handleButton(Button b)
-    {
-        btn = b.name;
-    }
 
     public void Choice(UnityAction noEvent)
     {
-        if (btn =="Btn1")
-        {
-            TowerPanelObject.transform.SetParent(Btn1, true);
-            TowerPanelObject.transform.localPosition = Vector2.zero;
-        }
-        if (btn == "Btn2")
-        {
-            TowerPanelObject.transform.SetParent(Btn2, true);
-            TowerPanelObject.transform.localPosition = Vector2.zero;
-        }
-        if (btn == "Btn3")
-        {
-            TowerPanelObject.transform.SetParent(Btn3, true);
-            TowerPanelObject.transform.localPosition = Vector2.zero;
-        }
-        if (btn == "Btn4")
-        {
-            TowerPanelObject.transform.SetParent(Btn4, true);
-            TowerPanelObject.transform.localPosition = Vector2.zero;
-        }
-        if (btn == "Btn5")
-        {
-            TowerPanelObject.transform.SetParent(Btn5, true);
-            TowerPanelObject.transform.localPosition = Vector2.zero;
-        }
-        if (btn == "Btn6")
-        {
-            TowerPanelObject.transform.SetParent(Btn6, true);
-            TowerPanelObject.transform.localPosition = Vector2.zero;
-        }
-        if (btn == "Btn7")
-        {
-            TowerPanelObject.transform.SetParent(Btn7, true);
-            TowerPanelObject.transform.localPosition = Vector2.zero;
-        }
-
-            TowerPanelObject.SetActive(true);
-            Button.onClick.RemoveAllListeners();
-            Button.onClick.AddListener(noEvent);
-            Button.onClick.AddListener(ClosePanel);
-            Button.gameObject.SetActive(true);
+        TowerPanelObject.SetActive(true);
+        Button.onClick.RemoveAllListeners();
+        Button.onClick.AddListener(noEvent);
+        Button.onClick.AddListener(ClosePanel);
+        Button.gameObject.SetActive(true);
         
     }
 

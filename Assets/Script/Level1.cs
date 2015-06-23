@@ -47,7 +47,7 @@ public class Level1 : MonoBehaviour {
         Button2.GetComponent<Image>().sprite = sprite;
     }
 
-    public void Click(Button button)
+    public void Click(string button)
     {
         TowerPanel.buttonSetup(button); 
         TowerPanel.Choice(NoFunction); 
